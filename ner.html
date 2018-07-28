@@ -1,0 +1,27 @@
+<!DOCTYPE html> <html>
+  <head>
+  </head>
+  <body>
+    <h1>Enter your article</h1>
+      <div id="ner">
+        <form action="/query" method="get">
+	    <textarea style="width:500px; min-height:250px; height:auto;" id="article"  name="article" placeholder="Enter the article">  {{article}} </textarea>
+<br>	
+        <input id="GO" type="submit" value="Submit">
+<br>
+    <h3>article language:</h3>{{lang}}   
+<br>
+    <h3>persons:</h3>{{per}}	
+<br>
+	<h3>organizations:</h3>{{org}}	
+<br>
+	<h3>locations:</h3>{{loc}}
+<br>
+	<h3>key words:</h3>{{key}}	
+	
+	
+	
+	</form>
+      </div>
+  </body>
+</html>
